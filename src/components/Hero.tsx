@@ -1,28 +1,16 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { TrendingUp, Shield, Award, Users } from "lucide-react";
 import InvestmentCalculator from "./InvestmentCalculator";
-
 const Hero = () => {
   const [propertyType, setPropertyType] = useState("");
   const [location, setLocation] = useState("");
-
-  return (
-    <div className="relative h-screen">
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1560103104-4283ad4d760f?auto=format&fit=crop&w=1920&q=80')",
-          backgroundPositionY: "30%",
-        }}
-      >
+  return <div className="relative h-screen">
+      <div className="absolute inset-0 bg-cover bg-center" style={{
+      backgroundImage: "url('https://images.unsplash.com/photo-1560103104-4283ad4d760f?auto=format&fit=crop&w=1920&q=80')",
+      backgroundPositionY: "30%"
+    }}>
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       </div>
       
@@ -46,7 +34,7 @@ const Hero = () => {
 
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Turn Your Savings Into
-            <span className="text-vestors-gold block mt-2">Pattaya Property Gold</span>
+            <span className="block mt-2 text-yellow-500">Pattaya Property Gold</span>
           </h1>
           
           <p className="text-xl md:text-2xl mb-4 max-w-3xl mx-auto leading-relaxed">
@@ -138,8 +126,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Hero;
