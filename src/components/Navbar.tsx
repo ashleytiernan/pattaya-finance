@@ -70,13 +70,13 @@ const Navbar = () => {
                 <div className="flex flex-col space-y-4">
                   <a
                     href="#properties"
-                    className="text-vestors-blue hover:text-vestors-gold transition-colors"
+                    className="text-vestors-blue hover:text-yellow-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     Properties
                   </a>
                   <DropdownMenu>
-                    <DropdownMenuTrigger className="text-left text-vestors-blue hover:text-vestors-gold transition-colors">
+                    <DropdownMenuTrigger className="text-left text-vestors-blue hover:text-yellow-600 transition-colors">
                       Locations
                     </DropdownMenuTrigger>
                     <DropdownMenuContent>
@@ -96,21 +96,21 @@ const Navbar = () => {
                   </DropdownMenu>
                   <a
                     href="#why-thailand"
-                    className="text-vestors-blue hover:text-vestors-gold transition-colors"
+                    className="text-vestors-blue hover:text-yellow-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     Why Thailand
                   </a>
                   <a
                     href="#team"
-                    className="text-vestors-blue hover:text-vestors-gold transition-colors"
+                    className="text-vestors-blue hover:text-yellow-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     Team
                   </a>
                   <a
                     href="#contact"
-                    className="text-vestors-blue hover:text-vestors-gold transition-colors"
+                    className="text-vestors-blue hover:text-yellow-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     Contact
@@ -123,12 +123,12 @@ const Navbar = () => {
           <div className="flex items-center space-x-8">
             <a
               href="#properties"
-              className="text-vestors-blue hover:text-vestors-gold transition-colors"
+              className="text-vestors-blue hover:text-yellow-600 transition-colors"
             >
               Properties
             </a>
             <DropdownMenu>
-              <DropdownMenuTrigger className="text-vestors-blue hover:text-vestors-gold transition-colors">
+              <DropdownMenuTrigger className="text-vestors-blue hover:text-yellow-600 transition-colors">
                 Locations
               </DropdownMenuTrigger>
               <DropdownMenuContent>
@@ -148,19 +148,19 @@ const Navbar = () => {
             </DropdownMenu>
             <a
               href="#why-thailand"
-              className="text-vestors-blue hover:text-vestors-gold transition-colors"
+              className="text-vestors-blue hover:text-yellow-600 transition-colors"
             >
               Why Thailand
             </a>
             <a
               href="#team"
-              className="text-vestors-blue hover:text-vestors-gold transition-colors"
+              className="text-vestors-blue hover:text-yellow-600 transition-colors"
             >
               Team
             </a>
             <a
               href="#contact"
-              className="text-vestors-blue hover:text-vestors-gold transition-colors font-medium"
+              className="text-vestors-blue hover:text-yellow-600 transition-colors font-medium"
             >
               Contact
             </a>

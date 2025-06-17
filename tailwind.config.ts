@@ -55,7 +55,6 @@ export default {
 				},
 				vestors: {
 					blue: '#0D3B66',
-					gold: '#E6B54A',
 					lightgray: '#F5F5F5',
 					darkgray: '#333333',
 				}
