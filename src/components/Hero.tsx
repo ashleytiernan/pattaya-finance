@@ -118,16 +118,6 @@ const Hero = () => {
               <InvestmentCalculator />
             </div>
           </div>
-
-          {/* Urgency/Scarcity Element */}
-          <div className="mt-8 bg-yellow-600 bg-opacity-20 backdrop-blur-sm rounded-lg p-4 border border-yellow-600 max-w-2xl mx-auto">
-            <p className="text-sm font-medium">
-              🔥 <strong>Limited Time:</strong> Properties under $500K with guaranteed 12% returns
-            </p>
-            <p className="text-xs mt-1 text-gray-200">
-              Only 23 units remaining in our current portfolio • Expires Dec 31st
-            </p>
-          </div>
         </div>
       </div>
     </div>
