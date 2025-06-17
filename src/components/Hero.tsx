@@ -3,7 +3,6 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { TrendingUp, Shield, Award, Users } from "lucide-react";
-import InvestmentCalculator from "./InvestmentCalculator";
 
 const Hero = () => {
   const [propertyType, setPropertyType] = useState("");
@@ -62,8 +61,8 @@ const Hero = () => {
             <span className="text-gray-200">Happy investors already earning passive income</span>
           </div>
           
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full max-w-6xl mx-auto">
-            {/* Property Search */}
+          {/* Property Search - now full width */}
+          <div className="w-full max-w-2xl mx-auto">
             <div className="bg-white p-6 rounded-xl shadow-2xl border-t-4 border-yellow-600">
               <div className="flex items-center gap-2 mb-4">
                 <TrendingUp className="w-5 h-5 text-vestors-blue" />
@@ -111,11 +110,6 @@ const Hero = () => {
               <p className="text-xs text-gray-500 mt-2 text-center">
                 Free consultation • No obligation • Expert guidance included
               </p>
-            </div>
-
-            {/* Investment Calculator */}
-            <div className="flex justify-center">
-              <InvestmentCalculator />
             </div>
           </div>
         </div>

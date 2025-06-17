@@ -1,7 +1,7 @@
-
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import InvestmentCalculator from "./InvestmentCalculator";
 
 const FeaturedProperties = () => {
   const properties = [
@@ -85,6 +85,11 @@ const FeaturedProperties = () => {
           </p>
         </div>
 
+        {/* Investment Calculator */}
+        <div className="flex justify-center mb-16">
+          <InvestmentCalculator />
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {properties.map((property) => (
             <Card key={property.id} className="overflow-hidden border-none shadow-lg hover:shadow-xl transition-all duration-300">
@@ -95,7 +100,7 @@ const FeaturedProperties = () => {
                   className="w-full h-full object-cover"
                 />
                 {property.featured && (
-                  <Badge className="absolute top-3 right-3 bg-vestors-gold text-white border-none">
+                  <Badge className="absolute top-3 right-3 bg-yellow-600 text-white border-none">
                     Featured
                   </Badge>
                 )}
@@ -107,7 +112,7 @@ const FeaturedProperties = () => {
                 <h3 className="text-xl font-bold mb-2 text-vestors-blue">
                   {property.title}
                 </h3>
-                <p className="text-vestors-gold text-xl font-bold mb-4">
+                <p className="text-yellow-600 text-xl font-bold mb-4">
                   {property.price}
                 </p>
                 <div className="flex justify-between text-sm text-gray-600 border-t border-gray-200 pt-4">
@@ -117,7 +122,7 @@ const FeaturedProperties = () => {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button className="w-full bg-vestors-blue hover:bg-vestors-gold text-white">
+                <Button className="w-full bg-vestors-blue hover:bg-yellow-600 text-white">
                   View Details
                 </Button>
               </CardFooter>
