@@ -21,8 +21,15 @@ const Navbar = () => {
     <nav className="bg-white py-4 px-6 fixed w-full shadow-sm z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <a href="/" className="font-bold text-2xl text-vestors-blue">
-            Vestors<span className="text-vestors-gold">.net</span>
+          <a href="/" className="flex items-center gap-2">
+            <img 
+              src="/lovable-uploads/207fade1-694c-437b-b90b-f658532a83d6.png" 
+              alt="Pattaya Finance Logo" 
+              className="h-8 w-auto"
+            />
+            <span className="font-bold text-xl text-vestors-blue">
+              Pattaya Finance
+            </span>
           </a>
         </div>
 

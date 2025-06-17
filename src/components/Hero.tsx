@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
@@ -47,11 +46,11 @@ const Hero = () => {
 
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Turn Your Savings Into
-            <span className="text-vestors-gold block mt-2">Thai Property Gold</span>
+            <span className="text-vestors-gold block mt-2">Pattaya Property Gold</span>
           </h1>
           
           <p className="text-xl md:text-2xl mb-4 max-w-3xl mx-auto leading-relaxed">
-            Join thousands of smart investors earning <strong className="text-vestors-gold">8-15% returns</strong> from premium Thai real estate
+            Join thousands of smart investors earning <strong className="text-vestors-gold">8-15% returns</strong> from premium Pattaya real estate
           </p>
           
           <p className="text-lg mb-10 max-w-2xl mx-auto text-gray-200">

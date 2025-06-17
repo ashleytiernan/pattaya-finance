@@ -5,9 +5,16 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Vestors<span className="text-vestors-gold">.net</span></h3>
+            <div className="flex items-center gap-2 mb-4">
+              <img 
+                src="/lovable-uploads/207fade1-694c-437b-b90b-f658532a83d6.png" 
+                alt="Pattaya Finance Logo" 
+                className="h-6 w-auto"
+              />
+              <h3 className="text-xl font-bold">Pattaya Finance</h3>
+            </div>
             <p className="text-gray-300 mb-4">
-              Thailand's premier property investment platform, connecting investors with exceptional real estate opportunities.
+              Pattaya's premier property investment platform, connecting investors with exceptional real estate opportunities in Thailand.
             </p>
           </div>
           
@@ -68,7 +75,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} Vestors.net. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Pattaya Finance. All rights reserved.</p>
         </div>
       </div>
     </footer>
