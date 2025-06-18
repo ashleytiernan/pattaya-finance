@@ -109,7 +109,7 @@ const Navbar = () => {
                     Seller Finance
                   </a>
                   <a
-                    href="#investor-services"
+                    href="/investor-services"
                     className="text-vestors-blue hover:text-yellow-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
@@ -180,7 +180,7 @@ const Navbar = () => {
               Seller Finance
             </a>
             <a
-              href="#investor-services"
+              href="/investor-services"
               className="text-vestors-blue hover:text-yellow-600 transition-colors"
             >
               Investor Services
