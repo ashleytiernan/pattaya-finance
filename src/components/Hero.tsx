@@ -1,12 +1,16 @@
+
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { TrendingUp, Shield, Award, Users } from "lucide-react";
+
 const Hero = () => {
   const [condoType, setCondoType] = useState("");
   const [pattayaArea, setPattayaArea] = useState("");
-  return <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-vestors-blue via-blue-900 to-blue-800 overflow-hidden">
+
+  return (
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-vestors-blue via-blue-900 to-blue-800 overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-black/30"></div>
       <div className="absolute -top-20 -right-20 w-96 h-96 bg-yellow-600/10 rounded-full blur-3xl"></div>
@@ -103,17 +107,19 @@ const Hero = () => {
                 </div>
               </div>
               
-              <Button className="w-full text-white text-lg font-semibold transition-all duration-300 transform hover:scale-100 -scale-100 hover:scale-100 bg-blue-900 hover:bg-blue-800">
+              <Button className="w-full bg-vestors-blue hover:bg-yellow-600 text-white text-lg py-3 font-semibold transition-all duration-300 transform hover:scale-105">
                 Find My Perfect Condo Investment
               </Button>
               
-              <p className="text-center mt-3 text-yellow-600 font-semibold text-lg">
+              <p className="text-center text-sm text-gray-500 mt-3">
                 Free consultation • No obligation • Expert guidance included
               </p>
             </div>
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Hero;
