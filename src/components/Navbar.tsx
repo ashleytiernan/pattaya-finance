@@ -106,21 +106,21 @@ const Navbar = () => {
                     className="text-vestors-blue hover:text-yellow-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Seller Finance
+                    Finance
                   </a>
                   <a
                     href="/investor-services"
                     className="text-vestors-blue hover:text-yellow-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Investor Services
+                    Services
                   </a>
                   <a
                     href="#referral-program"
                     className="text-vestors-blue hover:text-yellow-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Referral Program
+                    Referrals
                   </a>
                   <a
                     href="#team"
@@ -177,19 +177,19 @@ const Navbar = () => {
               href="/seller-financing"
               className="text-vestors-blue hover:text-yellow-600 transition-colors"
             >
-              Seller Finance
+              Finance
             </a>
             <a
               href="/investor-services"
               className="text-vestors-blue hover:text-yellow-600 transition-colors"
             >
-              Investor Services
+              Services
             </a>
             <a
               href="#referral-program"
               className="text-vestors-blue hover:text-yellow-600 transition-colors"
             >
-              Referral Program
+              Referrals
             </a>
             <a
               href="#team"
