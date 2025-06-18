@@ -102,6 +102,27 @@ const Navbar = () => {
                     Why Thailand
                   </a>
                   <a
+                    href="#seller-finance"
+                    className="text-vestors-blue hover:text-yellow-600 transition-colors"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    Seller Finance
+                  </a>
+                  <a
+                    href="#investor-services"
+                    className="text-vestors-blue hover:text-yellow-600 transition-colors"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    Investor Services
+                  </a>
+                  <a
+                    href="#referral-program"
+                    className="text-vestors-blue hover:text-yellow-600 transition-colors"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    Referral Program
+                  </a>
+                  <a
                     href="#team"
                     className="text-vestors-blue hover:text-yellow-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
@@ -151,6 +172,24 @@ const Navbar = () => {
               className="text-vestors-blue hover:text-yellow-600 transition-colors"
             >
               Why Thailand
+            </a>
+            <a
+              href="#seller-finance"
+              className="text-vestors-blue hover:text-yellow-600 transition-colors"
+            >
+              Seller Finance
+            </a>
+            <a
+              href="#investor-services"
+              className="text-vestors-blue hover:text-yellow-600 transition-colors"
+            >
+              Investor Services
+            </a>
+            <a
+              href="#referral-program"
+              className="text-vestors-blue hover:text-yellow-600 transition-colors"
+            >
+              Referral Program
             </a>
             <a
               href="#team"
