@@ -20,6 +20,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-medium mb-4">Quick Links</h4>
             <ul className="space-y-2">
+              <li><a href="/" className="text-gray-300 hover:text-yellow-600 transition-colors">Home</a></li>
               <li><a href="#properties" className="text-gray-300 hover:text-yellow-600 transition-colors">Properties</a></li>
               <li><a href="#locations" className="text-gray-300 hover:text-yellow-600 transition-colors">Locations</a></li>
               <li><a href="#why-thailand" className="text-gray-300 hover:text-yellow-600 transition-colors">Why Thailand</a></li>

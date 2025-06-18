@@ -69,6 +69,13 @@ const Navbar = () => {
               <div className="absolute top-16 left-0 right-0 bg-white shadow-md p-4 animate-fade-in">
                 <div className="flex flex-col space-y-4">
                   <a
+                    href="/"
+                    className="text-vestors-blue hover:text-yellow-600 transition-colors"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    Home
+                  </a>
+                  <a
                     href="#properties"
                     className="text-vestors-blue hover:text-yellow-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
@@ -142,6 +149,12 @@ const Navbar = () => {
           </>
         ) : (
           <div className="flex items-center space-x-8">
+            <a
+              href="/"
+              className="text-vestors-blue hover:text-yellow-600 transition-colors"
+            >
+              Home
+            </a>
             <a
               href="#properties"
               className="text-vestors-blue hover:text-yellow-600 transition-colors"
