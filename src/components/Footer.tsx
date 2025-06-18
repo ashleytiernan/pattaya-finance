@@ -23,7 +23,7 @@ const Footer = () => {
               <li><a href="#properties" className="text-gray-300 hover:text-yellow-600 transition-colors">Properties</a></li>
               <li><a href="#locations" className="text-gray-300 hover:text-yellow-600 transition-colors">Locations</a></li>
               <li><a href="#why-thailand" className="text-gray-300 hover:text-yellow-600 transition-colors">Why Thailand</a></li>
-              <li><a href="#seller-finance" className="text-gray-300 hover:text-yellow-600 transition-colors">Seller Finance</a></li>
+              <li><a href="/seller-financing" className="text-gray-300 hover:text-yellow-600 transition-colors">Seller Finance</a></li>
               <li><a href="#investor-services" className="text-gray-300 hover:text-yellow-600 transition-colors">Investor Services</a></li>
               <li><a href="#referral-program" className="text-gray-300 hover:text-yellow-600 transition-colors">Referral Program</a></li>
               <li><a href="#team" className="text-gray-300 hover:text-yellow-600 transition-colors">Our Team</a></li>

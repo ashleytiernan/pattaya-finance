@@ -102,7 +102,7 @@ const Navbar = () => {
                     Why Thailand
                   </a>
                   <a
-                    href="#seller-finance"
+                    href="/seller-financing"
                     className="text-vestors-blue hover:text-yellow-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
@@ -174,7 +174,7 @@ const Navbar = () => {
               Why Thailand
             </a>
             <a
-              href="#seller-finance"
+              href="/seller-financing"
               className="text-vestors-blue hover:text-yellow-600 transition-colors"
             >
               Seller Finance
