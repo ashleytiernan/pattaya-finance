@@ -10,7 +10,7 @@ const Hero = () => {
   const [pattayaArea, setPattayaArea] = useState("");
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-vestors-blue via-blue-900 to-blue-800 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-vestors-blue via-blue-900 to-blue-800 overflow-hidden pt-24">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-black/30"></div>
       <div className="absolute -top-20 -right-20 w-96 h-96 bg-yellow-600/10 rounded-full blur-3xl"></div>
@@ -29,7 +29,7 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 container mx-auto px-4 text-center">
-        <div className="flex flex-col items-center space-y-8">
+        <div className="flex flex-col items-center space-y-8 mt-16">
           {/* Main Heading */}
           <div className="space-y-4">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
