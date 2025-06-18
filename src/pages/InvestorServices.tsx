@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { CheckCircle, TrendingUp, Shield, Users, Calculator, DollarSign, Clock, Target, Home, FileText, Briefcase, HeadphonesIcon } from "lucide-react";
+import { CheckCircle, TrendingUp, Shield, Users, Calculator, DollarSign, Clock, Target, Home, FileText, Briefcase, HeadphonesIcon, MapPin, Star, BarChart3, BookOpen } from "lucide-react";
 
 const InvestorServices = () => {
   return (
@@ -164,11 +164,25 @@ const InvestorServices = () => {
                   <p className="text-gray-600">Regular market reports and analysis to keep you informed about investment opportunities.</p>
                 </div>
               </div>
+              <div className="flex items-start gap-4">
+                <CheckCircle className="w-6 h-6 text-yellow-600 mt-1 flex-shrink-0" />
+                <div>
+                  <h3 className="text-xl font-semibold text-vestors-blue mb-2">Due Diligence</h3>
+                  <p className="text-gray-600">Thorough due diligence services to ensure your investments are secure and profitable.</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <CheckCircle className="w-6 h-6 text-yellow-600 mt-1 flex-shrink-0" />
+                <div>
+                  <h3 className="text-xl font-semibold text-vestors-blue mb-2">Portfolio Optimization</h3>
+                  <p className="text-gray-600">Strategic portfolio optimization to maximize returns and minimize risks across your investments.</p>
+                </div>
+              </div>
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?auto=format&fit=crop&w=600&h=500&q=80" 
-                alt="Investment Services" 
+                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&h=500&q=80" 
+                alt="Investment Team Meeting" 
                 className="rounded-lg shadow-lg w-full"
               />
             </div>
@@ -234,6 +248,39 @@ const InvestorServices = () => {
         </div>
       </section>
 
+      {/* Stats Section */}
+      <section className="py-20 bg-vestors-blue">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              Our Track Record
+            </h2>
+            <p className="text-xl text-gray-200 max-w-3xl mx-auto">
+              Numbers that speak for themselves
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-yellow-600 mb-2">500+</div>
+              <div className="text-white text-lg">Properties Managed</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-yellow-600 mb-2">₿2.5B</div>
+              <div className="text-white text-lg">Assets Under Management</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-yellow-600 mb-2">95%</div>
+              <div className="text-white text-lg">Client Satisfaction</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-yellow-600 mb-2">15%</div>
+              <div className="text-white text-lg">Average Annual Returns</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Service Packages Section */}
       <section className="py-20 bg-vestors-lightgray">
         <div className="container mx-auto px-4">
@@ -252,6 +299,7 @@ const InvestorServices = () => {
                 <CardTitle className="text-center">
                   <h3 className="text-2xl font-bold text-vestors-blue mb-2">Essential</h3>
                   <p className="text-gray-600">Perfect for first-time investors</p>
+                  <div className="text-3xl font-bold text-yellow-600 mt-4">$299/mo</div>
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -268,6 +316,10 @@ const InvestorServices = () => {
                     <CheckCircle className="w-4 h-4 text-yellow-600" />
                     <span className="text-sm">Basic market analysis</span>
                   </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-yellow-600" />
+                    <span className="text-sm">Email support</span>
+                  </li>
                 </ul>
                 <Button className="w-full bg-vestors-blue hover:bg-blue-800 text-white">
                   Get Started
@@ -283,6 +335,7 @@ const InvestorServices = () => {
                   </div>
                   <h3 className="text-2xl font-bold text-vestors-blue mb-2">Professional</h3>
                   <p className="text-gray-600">Complete investment management</p>
+                  <div className="text-3xl font-bold text-yellow-600 mt-4">$599/mo</div>
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -303,6 +356,10 @@ const InvestorServices = () => {
                     <CheckCircle className="w-4 h-4 text-yellow-600" />
                     <span className="text-sm">24/7 support</span>
                   </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-yellow-600" />
+                    <span className="text-sm">Dedicated account manager</span>
+                  </li>
                 </ul>
                 <Button className="w-full bg-yellow-600 hover:bg-yellow-700 text-black">
                   Choose Professional
@@ -315,6 +372,7 @@ const InvestorServices = () => {
                 <CardTitle className="text-center">
                   <h3 className="text-2xl font-bold text-vestors-blue mb-2">Premium</h3>
                   <p className="text-gray-600">For serious investors</p>
+                  <div className="text-3xl font-bold text-yellow-600 mt-4">$999/mo</div>
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -335,10 +393,90 @@ const InvestorServices = () => {
                     <CheckCircle className="w-4 h-4 text-yellow-600" />
                     <span className="text-sm">Portfolio optimization</span>
                   </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-4 h-4 text-yellow-600" />
+                    <span className="text-sm">VIP concierge services</span>
+                  </li>
                 </ul>
                 <Button className="w-full bg-vestors-blue hover:bg-blue-800 text-white">
                   Go Premium
                 </Button>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-vestors-blue mb-4">
+              What Our Clients Say
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Real feedback from satisfied investors
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <Card className="border-none shadow-lg">
+              <CardContent className="p-6">
+                <div className="flex items-center mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-5 h-5 fill-yellow-600 text-yellow-600" />
+                  ))}
+                </div>
+                <p className="text-gray-600 mb-4">
+                  "Exceptional service from start to finish. The team helped me navigate the Thai property market with confidence."
+                </p>
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 bg-gray-200 rounded-full"></div>
+                  <div>
+                    <div className="font-semibold text-vestors-blue">Sarah Johnson</div>
+                    <div className="text-sm text-gray-500">Real Estate Investor</div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg">
+              <CardContent className="p-6">
+                <div className="flex items-center mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-5 h-5 fill-yellow-600 text-yellow-600" />
+                  ))}
+                </div>
+                <p className="text-gray-600 mb-4">
+                  "Professional, reliable, and results-driven. My portfolio has grown significantly since partnering with them."
+                </p>
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 bg-gray-200 rounded-full"></div>
+                  <div>
+                    <div className="font-semibold text-vestors-blue">Michael Chen</div>
+                    <div className="text-sm text-gray-500">Property Developer</div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg">
+              <CardContent className="p-6">
+                <div className="flex items-center mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-5 h-5 fill-yellow-600 text-yellow-600" />
+                  ))}
+                </div>
+                <p className="text-gray-600 mb-4">
+                  "The 24/7 support and personalized service make all the difference. Highly recommend their services."
+                </p>
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 bg-gray-200 rounded-full"></div>
+                  <div>
+                    <div className="font-semibold text-vestors-blue">Emma Williams</div>
+                    <div className="text-sm text-gray-500">International Investor</div>
+                  </div>
+                </div>
               </CardContent>
             </Card>
           </div>
