@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
@@ -127,7 +126,7 @@ const Navbar = () => {
                     className="text-vestors-blue hover:text-yellow-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Referrals Plan
+                    Referral Program
                   </a>
                   <a
                     href="#team"
@@ -202,7 +201,7 @@ const Navbar = () => {
               href="#referral-program"
               className="text-vestors-blue hover:text-yellow-600 transition-colors"
             >
-              Referrals Plan
+              Referral Program
             </a>
             <a
               href="#team"
