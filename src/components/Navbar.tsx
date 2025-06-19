@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
@@ -213,7 +214,7 @@ const Navbar = () => {
               href="#contact"
               className="text-vestors-blue hover:text-yellow-600 transition-colors font-medium"
             >
-              Contact
+              Contact Us
             </a>
           </div>
         )}
