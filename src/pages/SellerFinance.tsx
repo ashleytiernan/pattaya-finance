@@ -1,10 +1,11 @@
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import InvestmentCalculator from "@/components/InvestmentCalculator";
+import SellerFinanceCalculator from "@/components/SellerFinanceCalculator";
+import EOICalculator from "@/components/EOICalculator";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { CheckCircle, TrendingUp, Shield, Users, Calculator, DollarSign, Clock, Target } from "lucide-react";
+import { CheckCircle, TrendingUp, Shield, Users, Calculator, DollarSign, Clock, Target, Home, PiggyBank, FileText } from "lucide-react";
 
 const SellerFinance = () => {
   return (
@@ -109,8 +110,31 @@ const SellerFinance = () => {
         </div>
       </section>
 
-      {/* Benefits Section */}
+      {/* Calculators Section */}
       <section className="py-20 bg-vestors-lightgray">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-vestors-blue mb-4">
+              Calculate Your Investment Returns
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Use our specialized calculators to estimate monthly payments and rental yields for your investment properties.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            <div className="flex justify-center">
+              <SellerFinanceCalculator />
+            </div>
+            <div className="flex justify-center">
+              <EOICalculator />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Benefits Section */}
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-vestors-blue mb-4">
@@ -131,45 +155,27 @@ const SellerFinance = () => {
             </div>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <CheckCircle className="w-6 h-6 text-yellow-600 mt-1 flex-shrink-0" />
+                <PiggyBank className="w-6 h-6 text-yellow-600 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="text-xl font-semibold text-vestors-blue mb-2">Lower Down Payments</h3>
                   <p className="text-gray-600">Often require smaller down payments than traditional bank loans, preserving your capital for other investments.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <CheckCircle className="w-6 h-6 text-yellow-600 mt-1 flex-shrink-0" />
+                <FileText className="w-6 h-6 text-yellow-600 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="text-xl font-semibold text-vestors-blue mb-2">Creative Structuring</h3>
                   <p className="text-gray-600">Structure deals with balloon payments, graduated payments, or interest-only periods to maximize cash flow.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <CheckCircle className="w-6 h-6 text-yellow-600 mt-1 flex-shrink-0" />
+                <Shield className="w-6 h-6 text-yellow-600 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="text-xl font-semibold text-vestors-blue mb-2">No Credit Restrictions</h3>
                   <p className="text-gray-600">Focus on the deal and property value rather than strict credit requirements that banks impose.</p>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Investment Calculator Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-vestors-blue mb-4">
-              Calculate Your Seller Finance Returns
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Use our calculator to estimate the potential returns on your seller-financed property investment.
-            </p>
-          </div>
-          
-          <div className="flex justify-center">
-            <InvestmentCalculator />
           </div>
         </div>
       </section>
@@ -208,6 +214,67 @@ const SellerFinance = () => {
               <h3 className="text-xl font-semibold text-vestors-blue mb-2">Close the Deal</h3>
               <p className="text-gray-600">Complete the transaction quickly with our legal team ensuring all documentation is proper.</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Seller Finance Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-vestors-blue mb-4">
+              Why Choose Seller Finance?
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <Card className="border-none shadow-lg text-center">
+              <CardHeader>
+                <Home className="w-12 h-12 text-yellow-600 mx-auto mb-4" />
+                <CardTitle className="text-vestors-blue">Access More Properties</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600">
+                  Unlock properties that aren't available through traditional financing channels.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg text-center">
+              <CardHeader>
+                <Clock className="w-12 h-12 text-yellow-600 mx-auto mb-4" />
+                <CardTitle className="text-vestors-blue">Speed to Market</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600">
+                  Close deals in weeks, not months. Perfect for competitive markets.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg text-center">
+              <CardHeader>
+                <DollarSign className="w-12 h-12 text-yellow-600 mx-auto mb-4" />
+                <CardTitle className="text-vestors-blue">Better Cash Flow</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600">
+                  Negotiate terms that optimize your monthly cash flow and returns.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg text-center">
+              <CardHeader>
+                <Users className="w-12 h-12 text-yellow-600 mx-auto mb-4" />
+                <CardTitle className="text-vestors-blue">Win-Win Solutions</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600">
+                  Create mutually beneficial arrangements for both buyers and sellers.
+                </p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
