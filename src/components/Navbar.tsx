@@ -133,7 +133,7 @@ const Navbar = () => {
                     className="text-vestors-blue hover:text-yellow-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Team
+                    The A Team
                   </a>
                   <a
                     href="#contact"
@@ -207,7 +207,7 @@ const Navbar = () => {
               href="#team"
               className="text-vestors-blue hover:text-yellow-600 transition-colors"
             >
-              Team
+              The A Team
             </a>
             <a
               href="#contact"
