@@ -66,9 +66,9 @@ const Hero = () => {
           {/* Property Search - now full width */}
           <div className="w-full max-w-2xl mx-auto">
             <div className="bg-white p-6 rounded-xl shadow-2xl border-t-4 border-yellow-600">
-              <div className="flex items-center gap-2 mb-4">
+              <div className="flex items-center gap-2 mb-4 justify-center">
                 <TrendingUp className="w-5 h-5 text-vestors-blue" />
-                <h3 className="text-lg font-semibold text-vestors-blue">Start Your Pattaya Condo Investment Journey</h3>
+                <h3 className="text-lg font-semibold text-vestors-blue text-center">Start Your Pattaya Condo Investment Journey</h3>
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
