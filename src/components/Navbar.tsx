@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
@@ -84,20 +83,20 @@ const Navbar = () => {
                   </a>
                   <DropdownMenu>
                     <DropdownMenuTrigger className="text-left text-vestors-blue hover:text-yellow-600 transition-colors">
-                      Locations
+                      Pattaya Areas
                     </DropdownMenuTrigger>
                     <DropdownMenuContent>
                       <DropdownMenuItem>
-                        <a href="#bangkok">Bangkok</a>
+                        <a href="#south-central">South/Central</a>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
-                        <a href="#phuket">Phuket</a>
+                        <a href="#pratumnak">Pratumnak</a>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
-                        <a href="#chiangmai">Chiang Mai</a>
+                        <a href="#jomtien">Jomtien</a>
                       </DropdownMenuItem>
                       <DropdownMenuItem>
-                        <a href="#pattaya">Pattaya</a>
+                        <a href="#na-jomtien">Na Jomtien</a>
                       </DropdownMenuItem>
                     </DropdownMenuContent>
                   </DropdownMenu>
@@ -141,7 +140,7 @@ const Navbar = () => {
                     className="text-vestors-blue hover:text-yellow-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Contact
+                    Contact Us
                   </a>
                 </div>
               </div>
@@ -163,20 +162,20 @@ const Navbar = () => {
             </a>
             <DropdownMenu>
               <DropdownMenuTrigger className="text-vestors-blue hover:text-yellow-600 transition-colors">
-                Locations
+                Pattaya Areas
               </DropdownMenuTrigger>
               <DropdownMenuContent>
                 <DropdownMenuItem>
-                  <a href="#bangkok">Bangkok</a>
+                  <a href="#south-central">South/Central</a>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <a href="#phuket">Phuket</a>
+                  <a href="#pratumnak">Pratumnak</a>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <a href="#chiangmai">Chiang Mai</a>
+                  <a href="#jomtien">Jomtien</a>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <a href="#pattaya">Pattaya</a>
+                  <a href="#na-jomtien">Na Jomtien</a>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
