@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SellerFinanceCalculator from "@/components/SellerFinanceCalculator";
@@ -225,53 +224,6 @@ const SellerFinance = () => {
             </div>
             <div className="flex justify-center">
               <EOICalculator />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Benefits Section */}
-      <section className="py-20 bg-vestors-lightgray">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-vestors-blue mb-4">
-              Benefits for Investors
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Discover why seller financing is becoming the preferred choice for smart property investors in Pattaya.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <img 
-                src="https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?auto=format&fit=crop&w=600&h=400&q=80" 
-                alt="Property Investment" 
-                className="rounded-lg shadow-lg w-full"
-              />
-            </div>
-            <div className="space-y-6">
-              <div className="flex items-start gap-4">
-                <PiggyBank className="w-6 h-6 text-yellow-600 mt-1 flex-shrink-0" />
-                <div>
-                  <h3 className="text-xl font-semibold text-vestors-blue mb-2">Lower Down Payments</h3>
-                  <p className="text-gray-600">Often require smaller down payments than traditional bank loans, preserving your capital for other investments.</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <FileText className="w-6 h-6 text-yellow-600 mt-1 flex-shrink-0" />
-                <div>
-                  <h3 className="text-xl font-semibold text-vestors-blue mb-2">Creative Structuring</h3>
-                  <p className="text-gray-600">Structure deals with balloon payments, graduated payments, or interest-only periods to maximize cash flow.</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <Shield className="w-6 h-6 text-yellow-600 mt-1 flex-shrink-0" />
-                <div>
-                  <h3 className="text-xl font-semibold text-vestors-blue mb-2">No Credit Restrictions</h3>
-                  <p className="text-gray-600">Focus on the deal and property value rather than strict credit requirements that banks impose.</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
