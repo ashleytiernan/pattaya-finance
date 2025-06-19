@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
@@ -22,7 +23,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <a href="/" className="flex items-center gap-2">
             <img 
-              src="/lovable-uploads/207fade1-694c-437b-b90b-f658532a83d6.png" 
+              src="/lovable-uploads/400e8286-3a50-4d1b-b49b-5d516391f1ce.png" 
               alt="Pattaya Finance Logo" 
               className="h-8 w-auto"
             />
