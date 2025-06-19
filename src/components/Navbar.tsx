@@ -126,7 +126,7 @@ const Navbar = () => {
                     className="text-vestors-blue hover:text-yellow-600 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Referrals
+                    Referrals Plan
                   </a>
                   <a
                     href="#team"
@@ -201,7 +201,7 @@ const Navbar = () => {
               href="#referral-program"
               className="text-vestors-blue hover:text-yellow-600 transition-colors"
             >
-              Referrals
+              Referrals Plan
             </a>
             <a
               href="#team"
