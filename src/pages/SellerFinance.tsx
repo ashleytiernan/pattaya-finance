@@ -110,8 +110,105 @@ const SellerFinance = () => {
         </div>
       </section>
 
-      {/* Calculators Section */}
+      {/* Benefits of Seller Financing Section */}
       <section className="py-20 bg-vestors-lightgray">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-vestors-blue mb-4">
+              Benefits of Seller Financing
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card className="border-none shadow-lg">
+              <CardHeader>
+                <div className="w-12 h-12 bg-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-xl font-bold text-white">1</span>
+                </div>
+                <CardTitle className="text-center text-vestors-blue">Simplified Qualification</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="text-gray-600">
+                  Our straightforward qualification process looks at basic income verification rather than the extensive documentation required by banks. No Thai credit history required.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg">
+              <CardHeader>
+                <div className="w-12 h-12 bg-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-xl font-bold text-white">2</span>
+                </div>
+                <CardTitle className="text-center text-vestors-blue">Faster Closing Process</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="text-gray-600">
+                  Eliminate the lengthy bank approval process and close on your property quickly. Go from discovery to ownership in weeks rather than months.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg">
+              <CardHeader>
+                <div className="w-12 h-12 bg-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-xl font-bold text-white">3</span>
+                </div>
+                <CardTitle className="text-center text-vestors-blue">No Thai Bank Account Required</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="text-gray-600">
+                  Make payments directly from your home country, eliminating the need to establish Thai banking relationships or navigate the country's foreign banking regulations.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg">
+              <CardHeader>
+                <div className="w-12 h-12 bg-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-xl font-bold text-white">4</span>
+                </div>
+                <CardTitle className="text-center text-vestors-blue">Lower Initial Investment</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="text-gray-600">
+                  Secure your investment property with a smaller down payment than typically required by banks, allowing you to enter the Thai property market with less upfront capital.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg">
+              <CardHeader>
+                <div className="w-12 h-12 bg-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-xl font-bold text-white">5</span>
+                </div>
+                <CardTitle className="text-center text-vestors-blue">Flexible Negotiation</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="text-gray-600">
+                  Work directly with us to structure payment terms that best fit your investment strategy and financial situation, rather than adhering to rigid bank requirements.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg">
+              <CardHeader>
+                <div className="w-12 h-12 bg-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-xl font-bold text-white">6</span>
+                </div>
+                <CardTitle className="text-center text-vestors-blue">Immediate Rental Income</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="text-gray-600">
+                  Start generating rental returns immediately. In many cases, the monthly rental income will cover a significant portion of your financing payments.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Calculators Section */}
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-vestors-blue mb-4">
@@ -134,7 +231,7 @@ const SellerFinance = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-vestors-lightgray">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-vestors-blue mb-4">
@@ -181,7 +278,7 @@ const SellerFinance = () => {
       </section>
 
       {/* How It Works Section */}
-      <section className="py-20 bg-vestors-lightgray">
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-vestors-blue mb-4">
@@ -219,7 +316,7 @@ const SellerFinance = () => {
       </section>
 
       {/* Why Choose Seller Finance Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-vestors-lightgray">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-vestors-blue mb-4">
