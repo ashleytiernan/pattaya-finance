@@ -7,6 +7,7 @@ import FeaturedProperties from "@/components/FeaturedProperties";
 import Testimonials from "@/components/Testimonials";
 import Locations from "@/components/Locations";
 import Team from "@/components/Team";
+import ReferralProgram from "@/components/ReferralProgram";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -25,6 +26,7 @@ const Index = () => {
       <Testimonials />
       <Locations />
       <Team />
+      <ReferralProgram />
       <Contact />
       <Footer />
     </div>
